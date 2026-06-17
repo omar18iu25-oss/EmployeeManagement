@@ -1,7 +1,9 @@
+
 using Microsoft.AspNetCore.Mvc;
 
 namespace HumaVolveAPI.Controllers
 {
+//comment by amira-abdelaziz
     [ApiController]
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
@@ -23,4 +25,5 @@ namespace HumaVolveAPI.Controllers
             .ToArray();
         }
     }
+
 }
