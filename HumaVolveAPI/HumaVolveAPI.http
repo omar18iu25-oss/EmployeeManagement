@@ -1,0 +1,6 @@
+@HumaVolveAPI_HostAddress = http://localhost:5152
+
+GET {{HumaVolveAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
